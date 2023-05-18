@@ -1,0 +1,9 @@
+.control {
+    color: #fff;
+}
+
+@media (prefers-color-scheme: light) {
+    .control {
+        color: black;
+    }
+}

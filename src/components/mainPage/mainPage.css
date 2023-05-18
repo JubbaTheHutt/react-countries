@@ -1,0 +1,73 @@
+.mainPage {
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.searchAndFilter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.searchbar input {
+    background-color: #2b3945;
+    color: #fff;
+    width: 90%;
+}
+
+.searchbar input::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.searchbar input:focus::placeholder {
+    opacity: 0.5;
+}
+
+.searchbar {
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: #d5d5d5 0 0 4px;
+    background-color: #2b3945;
+    color: #fff;
+    padding: 15px;
+    width: 600px;
+    cursor: text;
+}
+
+.searchbar:first-child {
+    font-size: 28px;
+}
+
+.countries {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    gap: 25px;
+    margin: auto;
+    width: 100%;
+}
+
+.showMore {
+    text-align: center;
+}
+
+.showMore button {
+    padding: 20px;
+    background-color: #2b3945;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: #d5d5d5 0 0 4px;
+}
+
+#Light .searchbar input,
+#Light .searchbar input::placeholder,
+#Light .showMore button,
+#Light .searchbar {
+    color: black;
+    background-color: #fff;
+}

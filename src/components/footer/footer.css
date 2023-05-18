@@ -1,0 +1,25 @@
+footer a {
+    text-decoration: underline !important;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: auto;
+    box-shadow: #d5d5d5 0 0 4px;
+}
+
+.footerInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+#Light footer {
+    background-color: #fff;
+}
+
+#Dark footer {
+    background-color: #2b3945;
+}

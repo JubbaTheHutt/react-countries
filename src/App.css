@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+#Dark * {
+    color: #ffffff;
+}
+
+#Light * {
+    color: #000000;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+#Dark {
+    background-color: #202c37;
+}
+
+#Light {
+    background-color: #eeeeee;
+}
+
+.App-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 600px;
+}
